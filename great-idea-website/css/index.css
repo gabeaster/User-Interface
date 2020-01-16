@@ -130,7 +130,7 @@ hr{
 /*section 3 features and about styling*/
 
 .section3{
-	padding: 5%;
+	padding: 3%;
 }
 
 h3{
@@ -140,10 +140,45 @@ h3{
 #features {
 	display: inline-block;
 	width: 49%;
+	padding: 1%;
 }
 
 #about{
 	display: inline-block;
 	width: 49%;
+	padding: 1%;
 }
 
+/* section 4 image banner stylling */
+.section4{
+	padding: 1%;
+}
+.middle-img{
+	margin-left: 15%;
+}
+
+/* section 5 services product and vision styling*/
+
+.section5{
+	display: inline-block;
+	padding: 1%;
+}
+
+
+#services{
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+}
+
+#product{
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+}
+
+#vision{
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+}
