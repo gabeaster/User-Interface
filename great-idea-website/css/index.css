@@ -65,8 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container{
+	margin 0 auto%;
+}
+
 hr{
-	width: 90%;
+	width: 95%;
 }
 
 /**navigation styling**/
@@ -181,4 +185,14 @@ h3{
 	display: inline-block;
 	width: 33%;
 	padding: 1%;
+}
+
+/* section 6 and footer contact styling */
+
+.section6{
+	margin: 2%;
+}
+
+footer{
+	text-align: center;
 }
