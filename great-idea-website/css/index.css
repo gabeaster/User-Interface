@@ -49,8 +49,9 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
-}
+	box-sizing: border-box;
+	max-width: 100%;
+ }
 
 html, body {
     height: 100%;
@@ -60,127 +61,65 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
 }
 
 /* Your code starts here! */
-.navigation-container {
-	text-align: center;
-    margin: 20px;
-}
 
-
-.header-content {
-	text-align: center;
-	margin: 60px;
-	margin-bottom: 70px;
-}
-
-.nav-content {
-	display: inline-block;
-	width: 75%;
-}
-
-.nav-content  a {
-	text-decoration: none;
-    color: lightgray;
-	padding: 0 30px;
-	
-}
-
-.logo-container {
-	display: inline-block;
-    text-align: center;
-    width: 15%;
-}
-
-.logo {
-	vertical-align: middle;
-}
-
-.call2action {
-	display: inline-block;
-    width: 49%;
-    vertical-align: top;
-    margin-top: 50px;
-}
-
-h1 {
-	font-size: 80px;
-}
-
-.header-button {
-	border: 1px solid black;
-    font-size: 20px;
-    padding: 5px 40px;
-}
-
-.circle-img-container {
-	display: inline-block;
-	width: 20%;
-	text-align: right;	
-}
-
-#main {
-	border-top: 1px solid black;
-    margin: 0 40px 40px;
-    padding-top: 40px;	
-}
-
-footer {
-	border-top: 1px solid black;
-    margin: 0 40px 40px;
-	padding: 40px 0;	
-}
-
-.top-content {
-	margin-bottom: 40px;
-}
-
-.middle-content {
-	display: inline-block;
-    width: 100%;
-	text-align: center;
-}
-
-.bottom-content {
-	margin-top: 40px;
-}
-
-.features {
-	display: inline-block;
-    width: 45%;
-}
-
-.about {
-	display: inline-block;
-    width: 45%;	
-}
-
-.middle-img {
+/**navigation styling**/
+.navigation{
 	display: inline-block;
 	width: 100%;
+	margin: 5px;
 }
 
-.services {
+#nav-content{
+	width: 73%;
 	display: inline-block;
-	width: 33%
 }
 
-.product {
+#nav-content a{
+	color: gray;
+	justify-content: space-between;
+	padding: 2% 5%;
 	display: inline-block;
-	width: 33%
 }
 
-.vision {
+.logodiv{
 	display: inline-block;
-    width: 33%;
+	width: 20%;
+	margin-left: 0 auto%;
 }
 
-footer{
+/*h1 and img section2 styling */
+
+.section2{
+	display: inline-block;
+	width: 100%;
+
+}
+
+#h1andbutton{
+	display: inline-block;
+	width:65%;
+	margin: 0% 2%;
+    padding: 5% 0;
+}
+
+.section2 h1{
 	text-align: center;
+	font-size: 100px;
 }
 
-.contact{
-	margin-top: 2rem;
+.section2 button{
+	border: 1px solid black;
+	margin: 0 42.5%;
+	padding: 1% 3%;
 }
+
+#imgbox{
+	display: inline-block;
+	width: 30%;
+	padding: 5%;
+}
+
+/*section 3 features and about styling*/
