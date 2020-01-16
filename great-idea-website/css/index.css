@@ -49,8 +49,9 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
-}
+	box-sizing: border-box;
+	max-width: 100%;
+ }
 
 html, body {
     height: 100%;
@@ -60,7 +61,138 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.container{
+	margin 0 auto%;
+}
+
+hr{
+	width: 95%;
+}
+
+/**navigation styling**/
+.navigation{
+	display: inline-block;
+	width: 100%;
+	margin: 5px;
+}
+
+#nav-content{
+	width: 73%;
+	display: inline-block;
+}
+
+#nav-content a{
+	color: gray;
+	justify-content: space-between;
+	padding: 2% 5%;
+	display: inline-block;
+}
+
+.logodiv{
+	display: inline-block;
+	width: 20%;
+	margin-left: 6%;
+}
+
+/*h1 and img section2 styling */
+
+.section2{
+	display: inline-block;
+	width: 100%;
+
+}
+
+#h1andbutton{
+	display: inline-block;
+	width:65%;
+	margin: 0% 2%;
+    padding: 5% 0;
+}
+
+.section2 h1{
+	text-align: center;
+	font-size: 100px;
+}
+
+.section2 button{
+	border: 1px solid black;
+	margin: 0 42.5%;
+	padding: 1% 3%;
+}
+
+
+#imgbox{
+	display: inline-block;
+	width: 30%;
+	padding: 5%;
+}
+
+/*section 3 features and about styling*/
+
+.section3{
+	padding: 3%;
+}
+
+h3{
+	padding: 1%;
+}
+
+#features {
+	display: inline-block;
+	width: 49%;
+	padding: 1%;
+}
+
+#about{
+	display: inline-block;
+	width: 49%;
+	padding: 1%;
+}
+
+/* section 4 image banner stylling */
+.section4{
+	padding: 1%;
+}
+.middle-img{
+	margin-left: 15%;
+}
+
+/* section 5 services product and vision styling*/
+
+.section5{
+	display: inline-block;
+	padding: 1%;
+}
+
+
+#services{
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+}
+
+#product{
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+}
+
+#vision{
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+}
+
+/* section 6 and footer contact styling */
+
+.section6{
+	margin: 2%;
+}
+
+footer{
+	text-align: center;
+}
