@@ -105,9 +105,9 @@ section, footer{
 
 .section1 button{
 	padding: .8% 7%;
-	font-size: 1.2rem;
 	border: 1px solid black;
-	margin: 0 33%;
+	width: 30%;
+	margin: 0 35%;
 }
 
 h1{
