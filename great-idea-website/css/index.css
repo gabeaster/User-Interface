@@ -140,3 +140,11 @@ hr{
 	margin-left: 1%;
 	width: 98%;
 }
+
+/*section 3 styling: services, product, vision divs*/
+
+.box3{
+	display: inline-block;
+	width:32.9%;
+	margin: 0 auto;
+}
