@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	/*margin: 0;*/
+	margin: 0;
 	/*padding: 0;*/
 	/*border: 0;*/
 	font-size: 100%;
@@ -66,9 +66,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
 /*big container properties*/
 .container{
-	padding: 1% 2%;
+	padding: 2% 4%;
 }
 /*header styling: nav and logo img*/
 header{
@@ -76,10 +77,14 @@ header{
 	width: 100%;
 }
 
+/*adding sticky navbar*/
+
 nav{
 display: inline-block;
+max-height: 99%;
 width: 65%;
 margin: 0 auto;
+padding: 2% 0;
 }
 
 nav a{
@@ -101,6 +106,10 @@ section, footer{
 	max-width: 98%;
 	padding: 3% 0;
 	margin: 0 auto;
+}
+
+.section1{
+	margin: 
 }
 
 .section1 button{
@@ -159,3 +168,9 @@ hr{
 }
 
 /*MVP MET*/
+
+/*stretch- introduce new font family*/
+
+p, footer{
+	font-family: 'Roboto Mono', monospace;
+}
